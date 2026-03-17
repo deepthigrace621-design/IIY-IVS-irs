@@ -1,0 +1,16 @@
+from sklearn.feature_extraction.text import TfidfVectorizer
+from sklearn.cluster import KMeans
+
+sentences = [
+    "python programming language",
+    "machine learning models",
+    "data science analysis",
+    "football match today",
+    "cricket players practice"
+]
+…for i in range(len(sentences)):
+    s = sentences[i]
+    c = clusters[i]
+    print("Sentence:", s)
+    print("Cluster:", c)
+    print()
